@@ -75,6 +75,14 @@
   font-size: 50px;
 }
 
+
+.project__img img{
+     height: 300px;
+     width: 100%;
+     object-fit: cover;
+     border-radius: .5rem;
+}
+
 @media only screen and (max-width: 767px) {
   .carousel-caption {
     bottom: 160px;
