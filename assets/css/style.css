@@ -66,6 +66,15 @@
   height: 100vh;
 }
 
+.services-para {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.card-body i {
+  font-size: 50px;
+}
+
 @media only screen and (max-width: 767px) {
   .carousel-caption {
     bottom: 160px;
