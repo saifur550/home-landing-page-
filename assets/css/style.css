@@ -71,16 +71,34 @@
   margin: 0 auto;
 }
 
-.card-body i {
+.services .card-body i {
   font-size: 50px;
 }
 
-
-.project__img img{
-     height: 300px;
-     width: 100%;
+.project__img.mb-2 img {
+  height: 350px;
+  width: 100%;
+  -o-object-fit: cover;
      object-fit: cover;
-     border-radius: .5rem;
+}
+
+.team .card {
+  -webkit-box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.24);
+          box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.24);
+}
+
+.team-img {
+  width: 100px;
+  height: 100px;
+}
+
+#text-area {
+  width: 270px;
+  height: 200px;
+}
+
+footer i {
+  color: #fff;
 }
 
 @media only screen and (max-width: 767px) {
